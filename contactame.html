@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="./Estilos/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./imagenes/uni.png" width="50" hight="50" alt="uni">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./index.html">Experiencia</a>
+                </li>
+                <li>
+                    <a href="./contactame.html">Contactame</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="formulario">
+        <h1>ENVIANOS UN MENSAJE</h1>
+        <h2>Dejame tus datos</h2>
+        <form>
+            <label>Nombres Completos</label>
+            <hr>
+            <input name="name" type="text" placeholder="Ingresa tus nombres y apellidos" required />
+            <br><br>
+            <label>Edad</label>
+            <hr>
+            <input name="age" type="number" placeholder="Ingresa tu edad" />
+            <br /><br />
+            <label>Elige tu pais</label>
+            <hr>
+            <select name="country">
+                <option value="">Seleccionar</option>
+                <option value="Perú">Perú</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+            </select>
+            <br /><br />
+            Correo
+            <hr />
+            <input name="email" type="email">
+            <br /><br />
+            Ingresa una descripción
+            <hr />
+            <textarea name="description" cols="40" rows="20"></textarea>
+            <hr />
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footerformulario">
+            <p>Copyright 2020 (©) Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+
+</html>

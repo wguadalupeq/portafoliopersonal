@@ -1,0 +1,120 @@
+body {
+  background-color:  black;
+  color: white;
+  margin: 0px;
+}
+
+header {
+  background-color: darkblue;
+  padding: 10px 40px;
+  display: flex;
+  border-bottom: 2px solid black;
+  
+}
+
+header div {
+  width: 1200px;
+}
+
+header div img {
+  margin: 0;
+}
+
+header nav ul li {
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+
+  justify-content: space-between;
+}
+
+main {
+  background-color: #cdcdcd;
+}
+
+.banner div img {
+    padding-top: 50px;
+  width: 200px;
+  
+}
+.banner div{
+    background-color: #cdcdcd;
+}
+
+.descripcion {
+  background-color:   #cdcdcd;
+}
+p {
+  font-size: 22px;
+  text-align: center;
+  background: #cdcdcd;
+  color: black;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.descripcion div {
+    width:600px;
+    padding-left: 600px;
+
+
+}
+.cv{
+    display:flex;
+    justify-content: space-between;
+}
+
+.habilidades {
+  background-color:  gray;
+  padding: 40px 104px 150px;
+  margin-bottom: -20px;
+}
+
+.habilidades h2 {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.habilidades .item {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 20px;
+}
+.habilidades .bar {
+  height: 18px;
+  background: white;
+}
+
+.habilidades .bar div {
+  height: 100%;
+  width: 80%;
+  background: black;
+}
+
+.habilidades h3 {
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color:  #cdcdcd;
+}
+
+.formulario{
+    background-color: gray;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 67px;
+    margin-bottom: -17px;
+}
+.footerformulario {
+    background-color:  #cdcdcd;
+      
+  }
